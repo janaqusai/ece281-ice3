@@ -24,3 +24,7 @@ Then it **elaborates** the *any* entity with the name `*_tb`.
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+![ICE3 waveform](waveform.png)
+
+## Documentation: I looked up how to declare signals. C3C Morales told me that my inputs and outputs need to be vectors in the test bench.
